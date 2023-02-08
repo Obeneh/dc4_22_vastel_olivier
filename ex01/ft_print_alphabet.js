@@ -1,5 +1,5 @@
-function consolAlphabet () {
+function consoleAlphabet () {
     let alphabet="abcdefghijklmnopqrstuvwxyz"
-    consol.log(alphabet)
+    console.log(alphabet)
 }
-consolAlphabet()
+consoleAlphabet()
