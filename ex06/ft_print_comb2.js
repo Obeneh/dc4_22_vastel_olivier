@@ -1,14 +1,16 @@
 
 function combinaison2 () {
-    let i=0;
-    let j=0;
-    let k=0;
-    let l=0;
-    for (i;i<100;i++){
-        for(j=i+1;j<100;j++){
-
-            console.log(i,j)
-                
+    let i;
+    let j;
+    let k;
+    let l;
+    for (i=0;i<=9;i++){
+        for(j=0;j<=9;j++){
+            for(k=0;k<=9;k++){
+                for(l=0;l<=9;l++){
+                    console.log('%d%d %d%d',i,j,k,l)
+                }
+            }        
         }
     }
 }
