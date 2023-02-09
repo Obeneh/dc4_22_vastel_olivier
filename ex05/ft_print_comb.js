@@ -6,7 +6,7 @@ function combinaison () {
     for (i;i<10;i++){
         for(j=i+1;j<10;j++){
             for(k=j+1;k<10;k++){
-                console.log(i,j,k)
+                console.log('%d%d%d',i,j,k)
             }
                 
         }
